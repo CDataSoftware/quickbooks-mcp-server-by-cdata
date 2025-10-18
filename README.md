@@ -1,9 +1,9 @@
 # quickbooks-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for QuickBooks
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for QuickBooks (beta)](https://www.cdata.com/download/download.aspx?sku=RQZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for QuickBooks](https://www.cdata.com/drivers/quickbooks/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data QuickBooks supported by the [CData JDBC Driver for QuickBooks](https://www.cdata.com/drivers/quickbooks/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data QuickBooks supported by the [CData JDBC Driver for QuickBooks](https://www.cdata.com/drivers/quickbooks/jdbc/).
 
 CData JDBC Driver connects to QuickBooks by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes QuickBooks data available through a simp
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/quickbooks/download/jdbc](https://www.cdata.com/drivers/quickbooks/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/quickbooks/download/jdbc](https://www.cdata.com/drivers/quickbooks/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for QuickBooks\`
